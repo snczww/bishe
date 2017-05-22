@@ -29,8 +29,8 @@ def pa(sart,end):
             i+=1
 
 file = open("C:\\Users\\zww\\Desktop\\page.txt", "a")
-pagenum=35
-count=5022
+pagenum=40
+count=5381
 while pagenum<60:
     pa(count,count+100)
     count+=100
